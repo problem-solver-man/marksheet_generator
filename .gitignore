@@ -1,4 +1,22 @@
-venv/
+# Python
 __pycache__/
 *.pyc
-.env
+
+# Virtual environment
+venv/
+
+# IDE/Editor files
+.vscode/
+.idea/
+
+# OS files
+.DS_Store
+Thumbs.db
+
+# Custom dirs/files to ignore
+Output/
+build/
+dist/
+rough.py
+test.txt
+MarksheetGenerator-v1.0-win-x64.spec
