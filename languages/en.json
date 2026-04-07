@@ -1,0 +1,54 @@
+{
+    "school_name": "National International College",
+    "school_address": "India, Asia (Earth)",
+    "excel_file_btn": "Select Excel File",
+    "term_txt": "Evaluation term:",
+    "year_txt": "Evaluation year:",
+    "class_txt": "Generate marksheet for:",
+    "class_dropdown": {
+        "all": "All Class",
+        "c1A": "Class-1A",
+        "c1B": "Class-1B",
+        "c2A": "Class-2A",
+        "c2B": "Class-2B",
+        "c3": "Class-3",
+        "c4A": "Class-4A",
+        "c4B": "Class-4B",
+        "c5": "Class-5",
+        "c6": "Class-6",
+        "c7": "Class-7"
+    },
+    "order_txt": "Marksheet order:",
+    "order_dropdown": {
+        "by_rank": "Order by Rank",
+        "by_roll": "Order by Roll"
+    },
+    "type_txt": "Output type:",
+    "type_dropdown": {
+        "single_pdf": "Single PDF",
+        "separate_pdf": "Separate PDFs"
+    },
+    "output_folder_btn": "Change Output Folder",
+    "generate_btn_inactive": "Generate Marksheets",
+    "generate_btn_active": "Processing...",
+    "progress_bar": "Progress bar:",
+    "progress_txt1": "Generating Marksheet of",
+    "progress_txt2": "done",
+    "theme": {
+        "light": "Light",
+        "dark": "Dark"
+    },
+    "date_and_time": "",
+    "wait": "Wait",
+    "wait_msg": "Please wait for the current task to finish.",
+    "error": "Error",
+    "file_abs_err_msg": "File doesn't exist.\nSelect an Excel (.xlsx or .xls) file first.",
+    "task_running": "Task Running",
+    "task_running_msg": "A task is still running.",
+    "task_running_yes": "Yes = Exit anyway",
+    "task_running_no": "No = Wait",
+    "task_running_cancel": "Cancel = Do nothing",
+    "no_eval_msg": "Oops! Please select an evaluation term \nand year from the dropdown to continue.",
+    "status_ready": "Status: Ready",
+    "status_progress": "Status: Work in progress..."
+}

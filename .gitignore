@@ -20,3 +20,5 @@ dist/
 rough.py
 test.txt
 MarksheetGenerator-v1.0-win-x64.spec
+MarksheetGenerator-v2.0-win-x64.spec
+app.log

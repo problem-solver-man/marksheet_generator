@@ -6,7 +6,7 @@ import json
 # Application info
 APP_NAME = "MarksheetGenerator"
 APP_AUTHOR = "Vishesh"
-APP_VERSION = "1.0"
+APP_VERSION = "2.0"
 
 
 # -------------------------
@@ -32,11 +32,16 @@ def load_config():
             return json.load(f)
 
     return {
-        "last_excel_file": str(base_dir / "sample_data/Sample.xlsx"),
+        "last_excel_file": str(base_dir / "Students_Data/Sample.xlsx"),
         "last_output_folder": str(default_output),
+        "evaluation_term": "Select",
+        "evaluation_year": "Select",
         "last_class": "All Class",
         "marksheet_order": "Order by Rank",
-        "theme": "light"
+        "output_type": "Single PDF",
+        "language": "hi",
+        "theme": "Light",
+        "password_for_all_excel": "1A1B2A2B34A4B567"
     }
 
 
@@ -48,3 +53,4 @@ def save_config():
 
 # Get last user preferences if available or set default
 config = load_config()
+

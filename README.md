@@ -7,6 +7,10 @@
 
 This application is designed to generate mark sheets for school and college students efficiently and accurately. It significantly reduces manual effort, saves valuable time, ensures complete accuracy, and produces professionally formatted documents.
 
+![Homepage](./templates/app-homepage.PNG)
+
+Example output:
+![Output](./templates/example-output.PNG)
 ---
 
 ## Prerequisites
